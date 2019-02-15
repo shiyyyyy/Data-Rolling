@@ -1,0 +1,127 @@
+<!--
+@author Jannchie
+@email jannchie@gmail.com
+@create date 2018-07-18 08:42:38
+@modify date 2018-10-14 20:24:19
+@desc A data visualization project based on d3.js. 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.bootcss.com/d3/5.4.0/d3.min.js"></script>
+    <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+    <script src="./gn.js"></script>
+    <title>统计图表</title>
+</head>
+
+<style>
+    * {
+      margin: 0; padding: 0;
+    }
+    
+    #container {
+      height: 100%;
+      width: 100%;
+      background: rgba(0,0,0,.02);
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
+    
+    video {
+      position: absolute;
+    
+      /* Vertical and Horizontal center*/
+      left: 50%; top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    body {
+        background-image: linear-gradient(to right top, #ffcc00 50%, #eee 50%);
+        background-size: 100% calc(100% - 100vh + 3px);
+        background-repeat: no-repeat;
+    }
+    body::after {
+        content: "";
+        position: fixed;
+        top: 3px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: #fff;
+        z-index: -1;
+    }
+
+</style>
+
+<body>
+
+    <center>
+        <input type="file" id="inputfile" name="fileContent">
+        <svg width="1900" height="1200"></svg>
+        <script src="config.js"></script>
+        <script src="visual.js"></script>
+        <link rel="stylesheet" href="stylesheet.css">
+    </center>
+
+    <!-- 背景视频 -->
+    <!-- <div id="container">
+        <video autoplay muted loop controls>
+            <source src="http://qiniu-xpc5.vmoviercdn.com/5c3eb3ff853cb.mp4" type="video/mp4">
+        </video>
+    </div> -->
+
+</body>
+
+
+<!-- 视频背景 比例设置 && 动态容器大小变化 -->
+<!-- <script>
+    debugger
+    // JS
+    var video = document.querySelector('video')
+        , container = document.querySelector('#container');
+
+    var setVideoDimensions = function () {
+        // 获取视频本身的宽度和高度
+        var w = video.videoWidth
+            , h = video.videoHeight;
+
+        // 获取视频的比例
+        var videoRatio = (w / h).toFixed(2);
+
+        // 获取容器的宽和高
+        var containerStyles = window.getComputedStyle(container)
+            , minW = parseInt(containerStyles.getPropertyValue('width'))
+            , minH = parseInt(containerStyles.getPropertyValue('height'));
+
+        //计算和调整容器比例
+        var widthRatio = minW / w
+            , heightRatio = minH / h;
+
+        //根据比例做调整
+        if (widthRatio > heightRatio) {
+            var newWidth = minW;
+            var newHeight = Math.ceil(newWidth / videoRatio);
+        }
+        else {
+            var newHeight = minH;
+            var newWidth = Math.ceil(newHeight * videoRatio);
+        }
+
+        video.style.width = newWidth + 'px';
+        video.style.height = newHeight + 'px';
+    };
+
+    video.addEventListener('loadedmetadata', setVideoDimensions, false);
+    window.addEventListener('resize', setVideoDimensions, false);
+</script> -->
+
+</html>
