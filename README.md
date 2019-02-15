@@ -1,7 +1,9 @@
 <h1 align="center">
 动态排名数据可视化
 </h1>
-
+<h3>非本人所写,因项目用到,直接拿来用,原项目 
+[![地址](https://img.shields.io/github/issues/Jannchie/Historical-ranking-data-visualization-based-on-d3.js.svg?style=flat-square)]
+</h3>
 <h3 align="center">将历史数据排名转化为动态柱状图图表</h3>
 
 
@@ -12,10 +14,10 @@
   
   <center>
 
-  [![GitHub issues](https://img.shields.io/github/issues/Jannchie/Historical-ranking-data-visualization-based-on-d3.js.svg?style=flat-square)](https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js/issues)
+  <!-- [![GitHub issues](https://img.shields.io/github/issues/Jannchie/Historical-ranking-data-visualization-based-on-d3.js.svg?style=flat-square)](https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js/issues)
   [![GitHub stars](https://img.shields.io/github/stars/Jannchie/Historical-ranking-data-visualization-based-on-d3.js.svg?style=flat-square)](https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js/stargazers)
   [![GitHub forks](https://img.shields.io/github/forks/Jannchie/Historical-ranking-data-visualization-based-on-d3.js.svg?style=flat-square)](https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js/network)
-  [![GitHub license](https://img.shields.io/github/license/Jannchie/Historical-ranking-data-visualization-based-on-d3.js.svg?style=flat-square)](https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js/blob/master/LICENSE)
+  [![GitHub license](https://img.shields.io/github/license/Jannchie/Historical-ranking-data-visualization-based-on-d3.js.svg?style=flat-square)](https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js/blob/master/LICENSE) -->
 
   </center>
 
