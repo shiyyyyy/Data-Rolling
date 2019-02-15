@@ -22,6 +22,19 @@
     * {
       margin: 0; padding: 0;
     }
+
+    .bg{
+        background-image: url('./img/cj.png');
+        /* background-image: url('./img/gn.png'); */
+        /* background-image: url('./img/dd.png'); */
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
     
     #container {
       height: 100%;
@@ -44,22 +57,6 @@
       transform: translate(-50%, -50%);
     }
 
-    body {
-        background-image: linear-gradient(to right top, #ffcc00 50%, #eee 50%);
-        background-size: 100% calc(100% - 100vh + 3px);
-        background-repeat: no-repeat;
-    }
-    body::after {
-        content: "";
-        position: fixed;
-        top: 3px;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        background: #fff;
-        z-index: -1;
-    }
-
 </style>
 
 <body>
@@ -71,6 +68,8 @@
         <script src="visual.js"></script>
         <link rel="stylesheet" href="stylesheet.css">
     </center>
+
+    <div class="bg"></div>
 
     <!-- 背景视频 -->
     <!-- <div id="container">

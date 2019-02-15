@@ -38,8 +38,8 @@ input {
 }
 
 .dateLabel {
-
-    fill: rgb(92, 92, 92);
+    fill: rgb(255, 255, 255);
+    /* fill: rgb(92, 92, 92); */
     display: table-cell;
     font-size: 60pt;
     font-weight: bold;
@@ -122,7 +122,8 @@ input {
 }
 
 .growth {
-    fill: rgb(92, 92, 92);
+    /* fill: rgb(92, 92, 92); */
+    fill: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 40pt;
     font-family: "Noto Sans CJK SC", "Source Han Sans CN"

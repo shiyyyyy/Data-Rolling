@@ -1,23 +1,15 @@
 <h1 align="center">
 动态排名数据可视化
 </h1>
-<h3>非本人所写,因项目用到,直接拿来用</h3> 
-<p align="center">
-  <center>
 
-  [![原地址](https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js/issues)
-
-
-  </center>
-</p>
 <h3 align="center">将历史数据排名转化为动态柱状图图表</h3>
 
 
   
 
-<p align="center">
+<h align="center">
   <a href="readme-en.md">English</a>
-  
+  <h3>非本人所写,年会拿来用的,以下为原项目链接</h3>
   <center>
 
   [![GitHub issues](https://img.shields.io/github/issues/Jannchie/Historical-ranking-data-visualization-based-on-d3.js.svg?style=flat-square)](https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js/issues)
@@ -65,3 +57,4 @@ name|type|value|date
 本项目能够进行一些简单的定制。
 
 使用记事本或者其他文本编辑器，打开config.js的文件即可进行一些参数的修改。
+
